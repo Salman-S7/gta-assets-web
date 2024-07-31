@@ -1,6 +1,6 @@
 import React from 'react'
 import { headerNavElemnets } from '../../utils/data'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import closeImg from '../../assets/images/close@2x.png'
 import './header.css'
 
