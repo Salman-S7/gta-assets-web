@@ -55,7 +55,7 @@ header nav ul li a img{
     height: 25%;
     align-items: center;
     justify-content: space-between;
-    font-size: 12px;
+    /* font-size: 12px; */
 }
 .circle, .circle-2{
     /* background: #000; */
