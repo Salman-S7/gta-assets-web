@@ -6,6 +6,7 @@ import CarCard from "../../components/car-card/CarCard";
 const Home = () => {
   return (
     <div className="home-container">
+      <h2>My Cars</h2>
       <div className="car-card-container">
         {carCardData.map((car, i) => {
           return (

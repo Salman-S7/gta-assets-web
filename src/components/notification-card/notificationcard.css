@@ -1,0 +1,23 @@
+.notification-card-container{
+    padding: 2% 4%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: #2b2a2b;
+    gap: 8%;
+    border-radius: 16px;
+    font-weight: 600    ;
+}
+.failed{
+    color: #e35472;
+}
+.success{
+    color: #34cc5e;
+}
+.task{
+    color: #a8900b;
+}
+.not-desc{
+    margin-left: auto;
+}

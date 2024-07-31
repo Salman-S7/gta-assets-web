@@ -135,3 +135,40 @@ export const carCardData = [
 ];
 
 
+export const notificationData = [
+  {
+    time: "22:19",
+    status: "Failed",
+    desc: "Sell 3 Cars For Today",
+  },
+  {
+    time: "22:19",
+    status: "Success",
+    desc: "Sell 3 Cars For Today",
+  },
+  {
+    time: "22:19",
+    status: "Task",
+    desc: "Sell 3 Cars For Today",
+  },
+  {
+    time: "22:19",
+    status: "Failed",
+    desc: "Sell 3 Cars For Today",
+  },
+  {
+    time: "22:19",
+    status: "Failed",
+    desc: "Sell 3 Cars For Today",
+  },
+  {
+    time: "22:19",
+    status: "Failed",
+    desc: "Sell 3 Cars For Today",
+  },
+  {
+    time: "22:19",
+    status: "Success",
+    desc: "Sell 3 Cars For Today",
+  },
+];

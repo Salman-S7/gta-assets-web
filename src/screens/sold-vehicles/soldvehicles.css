@@ -1,0 +1,8 @@
+.home-container{
+    background-color: rgba(45, 45, 45, 0.28);
+    position: absolute;
+    left: 12%;
+    width: 84%;
+    min-height: 90vh;
+    border-radius: 40px;
+}
