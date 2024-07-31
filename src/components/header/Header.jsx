@@ -12,7 +12,7 @@ const Header = () => {
           {headerNavElemnets.map((el, i) => {
             return (
               <li key={i}>
-                <Link>
+                <Link to={el.link}>
                   <img src={el.img} alt="" />
                 </Link>
               </li>
