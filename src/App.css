@@ -7,7 +7,14 @@ body{
   background: linear-gradient(256.63deg, #000, #332125);
   background-attachment: fixed;
   background-repeat: no-repeat;
+  /* font-size: clamp(1rem, 0.75rem + 0.75vw, 1.5rem); */
 }
 .test{
   height: 200vh;
+}
+
+@media screen and (min-width: 3500px) {
+  body{
+    font-size: clamp(1rem, 0.75rem + 0.75vw, 1.5rem);
+  }
 }

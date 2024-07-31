@@ -12,7 +12,7 @@ const Header = () => {
           {headerNavElemnets.map((el, i) => {
             return (
               <li key={i}>
-                <NavLink to={el.link} activeClassName="active">
+                <NavLink to={el.link} activeclassname="active">
                   <img src={el.img} alt="" />
                 </NavLink>
               </li>

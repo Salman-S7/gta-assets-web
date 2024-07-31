@@ -5,13 +5,14 @@
     gap: 2%;
     align-items: center;
     height: 40vh;
-    width: 31%;
+    width: 32%;
     padding: 1.6%;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     background: #2b2a2b;
     border-radius: 20px;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+    /* font-size: 16px; */
 }
 .car-card:hover{
     background: #1e1e1e;
@@ -40,11 +41,18 @@
 .card-price{
     background: linear-gradient(180deg, #cf9da9, #b28791 65%, #695056 65.01%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.4rem;
+    font-size: 20px;
     font-weight: 600;
 }
 .car-details-2{
     color: #cccccc;
     font-size: smaller;
+}
+
+@media screen and (max-width: 1400px) {
+    .car-card{
+        font-size: 16px;
+    }
 }

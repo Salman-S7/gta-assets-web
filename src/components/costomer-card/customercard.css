@@ -11,6 +11,9 @@
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
+.customer-card-wrapper:hover{
+    background: #1e1e1e;
+}
 .customer-avatar{
     height: 12vh;
     width: 12vh;

@@ -55,9 +55,10 @@ header nav ul li a img{
     height: 25%;
     align-items: center;
     justify-content: space-between;
+    font-size: 12px;
 }
 .circle, .circle-2{
-    background: #000;
+    /* background: #000; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +68,8 @@ header nav ul li a img{
     text-align: center;
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 16px;
+    background: #202020;
+
 }
 .circle-2{
     background: #202020;

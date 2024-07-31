@@ -64,76 +64,7 @@ export const carCardData = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
   },
-  {
-    img: carImage,
-    title: "Lambo Urus",
-    price: 100000,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
-  },
-  {
-    img: carImage,
-    title: "Lambo Urus",
-    price: 100000,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
-  },
-  {
-    img: carImage,
-    title: "Lambo Urus",
-    price: 100000,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
-  },
-  {
-    img: carImage,
-    title: "Lambo Urus",
-    price: 100000,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
-  },
-  {
-    img: carImage,
-    title: "Lambo Urus",
-    price: 100000,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
-  },
-  {
-    img: carImage,
-    title: "Lambo Urus",
-    price: 100000,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
-  },
-  {
-    img: carImage,
-    title: "Lambo Urus",
-    price: 100000,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
-  },
-  {
-    img: carImage,
-    title: "Lambo Urus",
-    price: 100000,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
-  },
-  {
-    img: carImage,
-    title: "Lambo Urus",
-    price: 100000,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
-  },
-  {
-    img: carImage,
-    title: "Lambo Urus",
-    price: 100000,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, velit!",
-  }
+
 ];
 
 
