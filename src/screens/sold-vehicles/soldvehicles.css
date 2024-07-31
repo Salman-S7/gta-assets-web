@@ -1,8 +1,24 @@
-.home-container{
-    background-color: rgba(45, 45, 45, 0.28);
+.sold-wrapper{
     position: absolute;
-    left: 12%;
-    width: 84%;
-    min-height: 90vh;
-    border-radius: 40px;
+  left: 12%;
+  width: 84%;
 }
+.sold-container-top, .sold-container-bottom  {
+  background-color: rgba(45, 45, 45, 0.28);
+  width: 100%;
+  min-height: 44vh;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 3vh;
+  padding: 2% 8%;
+  color: #ffffff;
+  margin-bottom: 2%;
+}
+.card-wrapper, .customer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

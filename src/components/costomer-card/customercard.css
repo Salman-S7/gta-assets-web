@@ -1,0 +1,44 @@
+.customer-card-wrapper {
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  height: 30vh;
+  width: 31%;
+  padding: 1.6%;
+  margin-bottom: 4%;
+  background: #2b2a2b;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.customer-avatar{
+    height: 12vh;
+    width: 12vh;
+}
+.customer-avatar img{
+    height: 100%;
+}
+.customer-info{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+.customer-status, .customer-plate-num{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2%;
+}
+.customer-name{
+    font-weight: 600;
+}
+.staus{
+    color: #e35472;
+}
+.customer-plate-num{
+    font-size: small;
+}

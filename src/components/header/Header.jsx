@@ -1,6 +1,6 @@
 import React from 'react'
 import { headerNavElemnets } from '../../utils/data'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import closeImg from '../../assets/images/close@2x.png'
 import './header.css'
 
@@ -12,9 +12,9 @@ const Header = () => {
           {headerNavElemnets.map((el, i) => {
             return (
               <li key={i}>
-                <Link to={el.link}>
+                <NavLink to={el.link} activeClassName="active">
                   <img src={el.img} alt="" />
-                </Link>
+                </NavLink>
               </li>
             );
           })}
