@@ -59,6 +59,8 @@
 @media screen and (min-width: 3000px) {
   .car-card{
     height: 41vh;
+    font-size: clamp(1rem, 0.75rem + 0.75vw, 1.5rem);
+
   }
 }
 @media screen and (max-width: 1400px) {
