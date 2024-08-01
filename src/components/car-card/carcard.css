@@ -12,7 +12,7 @@
     border-radius: 20px;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
-    font-size: calc(8px + 0.5vw);
+    font-size: 1vw;
     text-overflow: ellipsis;
     /* overflow: auto; */
     /* white-space: nowrap; */
@@ -59,7 +59,7 @@
 @media screen and (min-width: 3000px) {
   .car-card{
     height: 41vh;
-    font-size: clamp(1rem, 0.75rem + 0.75vw, 1.5rem);
+    /* font-size: clamp(1rem, 0.75rem + 0.75vw, 1.5rem); */
 
   }
 }
