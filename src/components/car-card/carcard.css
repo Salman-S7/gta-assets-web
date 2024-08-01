@@ -56,7 +56,11 @@
 .car-details-2{
     color: #cccccc;
 }
-
+@media screen and (min-width: 3000px) {
+  .car-card{
+    height: 41vh;
+  }
+}
 @media screen and (max-width: 1400px) {
     .car-card{
         /* font-size: 12px; */
